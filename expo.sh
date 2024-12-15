@@ -1,4 +1,7 @@
 // expo general CLI
 
 // after changing expo's config files, run:
-expo start -c
+npx expo prebuild --clean
+
+// regenerate ios folder
+npx expo run:ios --device
